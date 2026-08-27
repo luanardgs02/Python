@@ -1,0 +1,9 @@
+numero=int(input("Digite um número: "))
+
+if (numero%2)==0:
+    print("O número",numero,'é par')
+else:
+    print("O número",numero,"é impar")
+    
+for i in range(1,numero+1):
+    print(i)
